@@ -35,3 +35,4 @@
 
 ## Контакты
 Телеграмм: https://t.me/AndreyCatser
+Пожертвование (CryptoBot): https://t.me/send?start=IV5qaeFf0UnY
