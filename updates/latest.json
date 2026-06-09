@@ -1,8 +1,8 @@
 {
-  "version": "1.21.0",
-  "url": "https://github.com/SystemHubC/PluginStudioPulse/releases/download/1.21.0/Plugin.Studio.SETUP.exe",
+  "version": "1.25.0",
+  "url": "https://github.com/SystemHubC/PluginStudioPulse/releases/download/1.25.0/Plugin.Studio.SETUP.exe",
   "size": 0,
-  "notes": "Фикс обнова 1.21.0",
+  "notes": "Обновлен SDK 1.25.0",
   "mandatory": false,
   "published_at": "2026-06-09T00:00:00Z",
   "installer_name": "Plugin.Studio.SETUP.exe"
