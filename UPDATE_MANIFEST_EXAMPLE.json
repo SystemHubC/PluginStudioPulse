@@ -1,0 +1,10 @@
+{
+  "version": "1.21.0",
+  "url": "https://github.com/SystemHubC/PluginStudioPulse/releases/download/v1.21.0/PulsePluginStudioSetup-1.21.0.exe",
+  "sha256": "PUT_SHA256_HERE",
+  "size": 0,
+  "notes": "Что изменилось в версии 1.21.0",
+  "mandatory": false,
+  "published_at": "2026-06-09T00:00:00Z",
+  "installer_name": "PulsePluginStudioSetup-1.21.0.exe"
+}

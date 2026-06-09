@@ -1,0 +1,70 @@
+{
+  "name": "funpay-pulse-plugin-studio",
+  "version": "1.21.0",
+  "private": true,
+  "description": "Standalone Pulse-like IDE for FunPay Pulse SDK plugins",
+  "main": "dist-electron/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "electron-vite --config electron.vite.config.ts dev",
+    "build": "tsc --noEmit && electron-vite --config electron.vite.config.ts build",
+    "preview": "electron-vite --config electron.vite.config.ts preview",
+    "dist": "pnpm build && electron-builder --win portable"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zustand": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "electron": "^33.3.1",
+    "electron-builder": "^25.1.8",
+    "electron-vite": "^2.3.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  },
+  "build": {
+    "appId": "ru.funpaypulse.pluginstudio",
+    "productName": "Pulse Plugin Studio",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**",
+      "dist-electron/**",
+      "resources/**",
+      "package.json",
+      "assets/**"
+    ],
+    "extraResources": [
+      {
+        "from": "resources/sdk",
+        "to": "resources/sdk"
+      },
+      {
+        "from": "resources/sdk",
+        "to": "sdk"
+      },
+      {
+        "from": "assets",
+        "to": "assets"
+      }
+    ],
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "icon": "assets/icon.ico"
+    },
+    "asar": true,
+    "asarUnpack": [
+      "resources/sdk/*.whl"
+    ]
+  }
+}
