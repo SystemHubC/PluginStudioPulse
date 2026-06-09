@@ -1,0 +1,10 @@
+{
+  "version": "1.20.0",
+  "url": "https://github.com/SystemHubC/PluginStudioPulse/releases/download/v1.20.0/Plugin.Studio.SETUP.exe",
+  "sha256": "PUT_SHA256_HERE",
+  "size": 0,
+  "notes": "Большое обновление, подробности в Releases",
+  "mandatory": false,
+  "published_at": "2026-06-09T00:00:00Z",
+  "installer_name": "Plugin.Studio.SETUP.exe"
+}
