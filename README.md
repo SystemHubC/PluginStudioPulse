@@ -1,4 +1,4 @@
-№ Pulse Plugin Studio
+# Pulse Plugin Studio
 
 <img width="1270" height="728" alt="image" src="https://github.com/user-attachments/assets/8a86e623-7215-4fbf-87d8-6bed031fec5c" />
 
