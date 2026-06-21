@@ -1,9 +1,9 @@
 {
-  "version": "1.35.0",
-  "url": "https://github.com/SystemHubC/PluginStudioPulse/releases/download/1.35.0/Plugin.Studio.SETUP.exe",
+  "version": "1.36.0",
+  "url": "https://github.com/SystemHubC/PluginStudioPulse/releases/download/1.36.0/Plugin.Studio.SETUP.exe",
   "size": 0,
-  "notes": "Визуальное обновление 1.35.0",
+  "notes": "Обновление удобности и фиксов 1.36.0",
   "mandatory": false,
-  "published_at": "2026-06-09T00:00:00Z",
+  "published_at": "2026-06-21T00:00:00Z",
   "installer_name": "Plugin.Studio.SETUP.exe"
 }
